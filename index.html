@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jade Martin</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('background.jpg'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #d0d0d0;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: 3px solid #5ebd5e;
+  display: block;
+  margin: 0 auto 20px auto;
+  object-fit: cover;
+}
+
+    .card {
+      background-color: rgba(26, 43, 34, 0.95);
+      border: 2px solid #5ebd5e;
+      border-radius: 16px;
+      padding: 24px;
+      max-width: 600px;
+      margin: 40px auto;
+      box-shadow: 0 0 25px rgba(94, 189, 94, 0.5);
+    }
+
+    h1, h2 {
+      color: #a8ff9e;
+      text-align: center;
+    }
+
+    .buttons {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .buttons a {
+      display: inline-block;
+      background-color: #5ebd5e;
+      color: #000;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #84f984;
+      transform: scale(1.05);
+    }
+
+    ul {
+      list-style-type: "\1F7E2 "; 
+      padding-left: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #999;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 650px) {
+      .card {
+        margin: 20px;
+        padding: 16px;
+      }
+
+      .buttons a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="profile.jpg" alt="Profile" class="profile-pic">
+
+    <h1>Jade Martin</h1>
+    <p style="text-align: center;">Bachelor of Science in Computer Science</p>
+    <p style="text-align: center;"><a href="mailto:jaddemartinn@gmail.com"style="color:#d0d0d0; text-decoration: none;">
+  📧 jaddemartinn@gmail.com
+    </a>
+    <div class="buttons">
+      <a href="https://www.facebook.com/jaddemartinn/" target="_blank">📘Facebook</a>
+      <a href="https://instagram.com/jaddemartin" target="_blank">📱Instagram</a>
+        <a href="https://www.tiktok.com/@jaddemartinn" target="_blank">🎵TikTok</a>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <blockquote style="text-align:center; font-style: italic; color:#a8ff9e;">
+  “I am burdened with glorious purpose.”
+</blockquote>
+      <ul>
+        <li>Fan Theory Analysis (Marvel, Harry Potter, Star Wars)</li>
+        <li>Collecting Funko Pops</li>
+        <li>Organizing Fandom Collections</li>
+      </ul>
+      <p>I’m someone who finds joy in characters that are misunderstood and full of depth. My all-time favorite is <strong>Loki</strong> from the Marvel universe — if I could be anyone, I’d be a version of him. I connect with his chaotic charm, cleverness, and unpredictable heart.</p>
+      <p>I'm also a big fan of the <strong>Harry Potter</strong> world. I proudly stand with <strong>Slytherin</strong> — the house that values ambition and cunning. I find Draco Malfoy’s confidence both annoying and fascinating, and I really admire the Slytherin squad’s vibe. Though from another house, I also like <strong>Ginny Weasley</strong> for her fiery spirit.</p>
+      <p>In the galaxy far, far away, my favorite is <strong>Anakin Skywalker</strong>. Whether he's the tragic Jedi or the feared <strong>Darth Vader</strong>, he’s the Star Wars character I’m most drawn to.</p>
+      <p>I also collect <strong>Funko Pop</strong> figures — but not just any! I only buy characters I love, and unsurprisingly, most of them are different versions of <strong>Loki</strong>. After all, I’m just a variant of him, right?</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+       <li>Creative Writing / Character Design ✍️🎨</li>
+        <li>Guitar Player 🎸</li>
+        <li>Basic HTML & CSS 💻📄</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2025 Jade Martin. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
